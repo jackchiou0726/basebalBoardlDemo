@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+body div.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+div.titleDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.titleDate h1 {
+  margin-right: 30px;
+}
+
+div.situation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+}
+div.situation div.scoreboard {
+  border: 1px solid black;
+  width: 80%;
+  margin-right: 30px;
+  height: 90%;
+}
+div.situation div.scoreboard table,
+div.situation div.scoreboard th,
+div.situation div.scoreboard tr,
+div.situation div.scoreboard td {
+  border: 1px solid black;
+  font-size: 3rem;
+  text-align: center;
+}
+div.situation div.scoreboard table {
+  width: 100%;
+  height: 100%;
+}
+
+div.base-situation {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 20%;
+  height: 90%;
+}
+div.base-situation div.base {
+  margin: 40px auto;
+  width: 135px;
+  height: 135px;
+  border: 1px solid black;
+  position: relative;
+  transform: rotate(45deg);
+}
+div.base-situation div.base div.base-alt {
+  position: absolute;
+  border: 1px solid black;
+  width: 20%;
+  height: 20%;
+}
+div.base-situation div.base div.base-1 {
+  top: 0;
+  right: 0;
+  border-top: none;
+  border-right: none;
+}
+div.base-situation div.base div.base-2 {
+  top: 0;
+  left: 0;
+  border-top: none;
+  border-left: none;
+}
+div.base-situation div.base div.base-3 {
+  bottom: 0;
+  left: 0;
+  border-bottom: none;
+  border-left: none;
+}
+div.base-situation div.base div.base-h {
+  bottom: 0;
+  right: 0;
+  border-bottom: none;
+  border-right: none;
+}
+div.base-situation div.inning-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30%;
+}
+div.base-situation div.inning-info div.sbo {
+  font-size: 1rem;
+  padding-top: 5px;
+  margin-left: 10px;
+}
+div.base-situation div.inning-info div.sbo div.strike,
+div.base-situation div.inning-info div.sbo div.ball,
+div.base-situation div.inning-info div.sbo div.out {
+  display: flex;
+  margin-bottom: 10px;
+}
+div.base-situation div.inning-info div.sbo div.strike span,
+div.base-situation div.inning-info div.sbo div.ball span,
+div.base-situation div.inning-info div.sbo div.out span {
+  margin-right: 5px;
+}
+div.base-situation div.inning-info div.sbo div.circle {
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+div.base-situation div.inning-info div.info {
+  width: 50%;
+}
+div.base-situation div.inning-info div.info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=all.css.map */

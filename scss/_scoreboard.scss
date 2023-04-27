@@ -1,0 +1,37 @@
+div.titleDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin-right: 30px;
+  }
+}
+
+div.situation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+
+  div.scoreboard {
+    border: 1px solid black;
+    width: 80%;
+    margin-right: 30px;
+    height: 90%;
+    table,
+    th,
+    tr,
+    td {
+      border: 1px solid black;
+      font-size: 3rem;
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

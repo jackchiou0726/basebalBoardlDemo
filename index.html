@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/all.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="board-container">
+        <div class="titleDate">
+          <h1>棒球戰況輸入</h1>
+          <h3 class="gameDate" id="gameDate">2023/04/27</h3>
+        </div>
+        <div class="situation">
+          <div class="scoreboard">
+            <table>
+              <tr>
+                <th></th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>R</th>
+                <th>H</th>
+                <th>E</th>
+              </tr>
+              <tr>
+                <td>客隊</td>
+                <td><span>&nbsp;</span></td>
+                <td><span>&nbsp;</span></td>
+                <td><span>&nbsp;</span></td>
+                <td><span>&nbsp;</span></td>
+                <td><span>&nbsp;</span></td>
+                <td><span>&nbsp;</span></td>
+                <td><span>&nbsp;</span></td>
+                <td><span>&nbsp;</span></td>
+                <td><span>&nbsp;</span></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>主隊</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+            </table>
+          </div>
+          <div class="base-situation">
+            <div class="base">
+              <div class="base-alt base-1"></div>
+              <div class="base-alt base-2"></div>
+              <div class="base-alt base-3"></div>
+              <div class="base-alt base-h"></div>
+            </div>
+            <div class="inning-info">
+              <div class="sbo">
+                <div class="strike">
+                  <span>S</span>
+                  <div class="circle strike-1"></div>
+                  <div class="circle strike-2"></div>
+                </div>
+                <div class="ball">
+                  <span>B</span>
+                  <div class="circle ball-1"></div>
+                  <div class="circle ball-2"></div>
+                  <div class="circle ball-3"></div>
+                </div>
+                <div class="out">
+                  <span>O</span>
+                  <div class="circle out-1"></div>
+                  <div class="circle out-2"></div>
+                </div>
+              </div>
+              <!-- 局數&選手資訊 -->
+              <div class="info">
+                <ul>
+                  <li>1局上</li>
+                  <li>投手:郭泓志</li>
+                  <li>用球數:16</li>
+                  <li>打者:陳金鋒</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="./js/all.js"></script>
+  </body>
+</html>
